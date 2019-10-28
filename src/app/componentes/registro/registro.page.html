@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title text-center>registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <img class="icon" src="assets/icon/logo.png" alt="">
+
+    <ion-item>
+        <ion-label position="floating" color="tertiary">Nombre</ion-label>
+        <ion-input type="text" [(ngModel)]="nombre" name="nombre" color="primary"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating" color="tertiary">Apellido</ion-label>
+        <ion-input type="text" [(ngModel)]="apellido" name="apellido" color="primary"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating" color="tertiary">Cédula de Identidad</ion-label>
+        <ion-input type="text" [(ngModel)]="ci" name="ci" color="primary"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating" color="tertiary">Teléfono/Celular</ion-label>
+        <ion-input type="text" [(ngModel)]="telf" name="telf" color="primary"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" color="tertiary">Email</ion-label>
+      <ion-input type="text" [(ngModel)]="email" name="email" color="primary"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+        <ion-label position="floating" color="tertiary">Password</ion-label>
+        <ion-input type="password" [(ngModel)]="password" name="password" color="primary"></ion-input>
+    </ion-item>
+
+    <!-- <ion-item>
+        <ion-label position="floating">Confirm Password</ion-label>
+        <ion-input type="password" [(ngModel)]="cpassword" name="cpassword"></ion-input>
+    </ion-item> -->
+  
+    <br>
+  
+    <ion-button fill="outline" expand="block" color="tertiary" (click)="onSubmitRegister()">Register</ion-button>
+
+    <p text-center routerLink="/login" style="color:#7d7f7d"><u>Sign In</u></p>
+
+</ion-content>

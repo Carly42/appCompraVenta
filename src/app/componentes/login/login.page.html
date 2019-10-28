@@ -1,19 +1,27 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
+  <ion-toolbar color="secondary">
+    <ion-title text-center>Iniciar Sesión</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
 
+  <img class="icon" src="assets/icon/logo.png" alt="">
+
   <ion-item>
-    <ion-label position = "floating">Email</ion-label>
-    <ion-input type = "text" name = "email"></ion-input>
+    <ion-label position="floating" color="secondary">Email</ion-label>
+    <ion-input type="text" [(ngModel)]="email" name="email" color="primary"></ion-input>
   </ion-item>
 
   <ion-item>
-      <ion-label position = "floating">Password</ion-label>
-      <ion-input type = "password" name = "password"></ion-input>
-    </ion-item>
+      <ion-label position="floating" color="secondary">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password" name="password" color="primary"></ion-input>
+  </ion-item>
+
+  <br>
+
+  <ion-button (click)="onSubmitLogin()" fill="outline" expand="block" color="secondary">Sign In</ion-button>
+
+  <p text-center routerLink="/registro" style="color:#7d7f7d"><u>Sign Up</u></p>
 
 </ion-content>
