@@ -27,6 +27,12 @@ export class RegistroPage implements OnInit {
       this.router.navigate(['/tabs']);
       console.log(auth);
     }).catch(err => console.log(err));
-  }
 
+    this.nombre = "";
+    this.apellido = "";
+    this.ci = "";
+    this.telf = "";
+    this.email = "";
+    this.password = "";
+  }
 }

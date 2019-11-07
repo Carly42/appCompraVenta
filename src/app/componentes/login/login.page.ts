@@ -21,5 +21,8 @@ export class LoginPage implements OnInit {
     this.authService.login(this.email, this.password).then(res =>{
       this.router.navigate(['/tabs']);
     }).catch(err => alert('Datos ingresados incorrectos!'));
+
+    this.email = "";
+    this.password = "";
   }
 }

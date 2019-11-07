@@ -7,14 +7,14 @@ export const environment = {
 };
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCHJgMMdDeNLq-rnLl-ShZam-CYGgeYPtY",
-  authDomain: "compraventa-b33fd.firebaseapp.com",
-  databaseURL: "https://compraventa-b33fd.firebaseio.com",
-  projectId: "compraventa-b33fd",
-  storageBucket: "compraventa-b33fd.appspot.com",
-  messagingSenderId: "405526802845",
-  appId: "1:405526802845:web:4228d6498e56ee1e433f74",
-  measurementId: "G-JLEWTGY8R6"
+  apiKey: "AIzaSyAzVT1fQaGuijaxX6E2tciN0OmXiRhJm-8",
+  authDomain: "ventaproductos-5e03c.firebaseapp.com",
+  databaseURL: "https://ventaproductos-5e03c.firebaseio.com",
+  projectId: "ventaproductos-5e03c",
+  storageBucket: "ventaproductos-5e03c.appspot.com",
+  messagingSenderId: "714964605525",
+  appId: "1:714964605525:web:568a839f18fd05341192dc",
+  measurementId: "G-L530C24DNR" 
 };
 /*
  * For easier debugging in development mode, you can import the following file

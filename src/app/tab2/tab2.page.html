@@ -6,6 +6,29 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-button (click)="onLogOut()">Log Out</ion-button>
+<ion-content padding>
+  <h3 text-center style="color:#3a727f"><b><u>Mi Cuenta</u></b></h3>
+
+  <br>
+
+  <p style="color:#3a727f">Nombre: {{(miCuenta | async)?.nombre}}</p>
+  <br>
+  <p style="color:#3a727f">Apellido: {{(miCuenta | async)?.apellido}}</p>
+  <br>
+  <p style="color:#3a727f">Cédula de Identidad: {{(miCuenta | async)?.ci}}</p>
+  <br>
+  <p style="color:#3a727f">Teléfono/Celular: {{(miCuenta | async)?.telf}}</p>
+  <br>
+  <p style="color:#3a727f">Email: {{(miCuenta | async)?.email}}</p>
+  <!-- <ion-list>
+    <ion-item *ngFor=*let item of micuenta | async*>
+      {{item.nombre, item.apellido, item.ci, item.telf, item.correo}}
+
+    </ion-item>
+  </ion-list> -->
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+      <ion-fab-button color="success" (click)="onLogOut()">
+        <ion-icon name="log-out" color="secondary"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
 </ion-content>
