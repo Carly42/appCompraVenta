@@ -1,11 +1,19 @@
 <ion-header>
   <ion-toolbar  color ="success">
-    <ion-title  align-title="center" >
+    <ion-title >
       Maps
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div id="map" ></div>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button color="success" (click)="click_location()">
+          <ion-icon name="pin" color="secondary"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    <div id="map"></div>
+  
+  <p style="color:#3a727f">Cliente: {{(cliente | async)?.distribuidor}}</p>
+  <p style="color:#3a727f">Fecha: {{(cliente | async)?.fecha}}</p>
 </ion-content>

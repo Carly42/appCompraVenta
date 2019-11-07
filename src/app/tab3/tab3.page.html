@@ -6,4 +6,55 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content padding>
+    <h3 text-center style="color:#3a727f"><b><u>Registrar Pedido: </u></b> </h3>
+
+    
+    <ion-item>
+        <ion-label position="floating" color="success">Cliente: </ion-label>
+        <ion-input type="text" [(ngModel)]="cliente" name="cliente" color="primary"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating" color="success">Nombre de Producto: </ion-label>
+        <ion-input type="text" [(ngModel)]="producto" name="producto" color="primary"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating" color="success">Cantidad: </ion-label>
+        <ion-input type="text" [(ngModel)]="cantidad" name="cantidad" color="primary"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating" color="success">Fecha: </ion-label>
+        <ion-datetime [(ngModel)]="fecha" name="fecha" color="primary" displayFormat="MM/DD/YYYY" min="2015-01-01" max="2030-12-12"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" color="success">Total a pagar: </ion-label>
+      <ion-input type="text" [(ngModel)]="total" name="total" color="primary"></ion-input>
+  </ion-item>
+
+    <ion-list>
+        <ion-radio-group [(ngModel)]="pago">
+          <ion-list-header>
+            <ion-label color="success">Forma de Pago: </ion-label>
+          </ion-list-header>
+      
+          <ion-item>
+            <ion-label color="success">Efectivo</ion-label>
+            <ion-radio slot="start" value="efectivo" checked></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label color="success">Tarjeta</ion-label>
+            <ion-radio slot="start" value="tarjeta"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+
+    <br>
+
+    <ion-button fill="outline" expand="block" color="success" (click)="onSubmitPedido()">Guardar Pedido</ion-button>
+
+</ion-content>
