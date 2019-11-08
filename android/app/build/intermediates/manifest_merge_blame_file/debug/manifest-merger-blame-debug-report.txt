@@ -1,0 +1,273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.ionic.starter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml
+10
+11    <!-- Permissions -->
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:47:5-67
+13-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:47:22-64
+14    <!-- Camera, Photos, input file -->
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:49:5-79
+15-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:49:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:50:5-81
+16-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:50:22-78
+17    <!-- Geolocation API -->
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:52:5-81
+18-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:52:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:53:5-79
+19-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:53:22-76
+20
+21    <uses-feature android:name="android.hardware.location.gps" />
+21-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:54:5-66
+21-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:54:19-63
+22    <!-- Network API -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:56:5-79
+23-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:56:22-76
+24    <!-- Navigator.getUserMedia -->
+25    <!-- Video -->
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:59:5-65
+26-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:59:22-62
+27    <!-- Audio -->
+28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+28-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:61:5-71
+28-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:61:22-68
+29    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+29-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:62:5-79
+29-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:62:22-77
+30
+31    <uses-feature
+31-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:35
+32        android:glEsVersion="0x00020000"
+32-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-41
+33        android:required="true" />
+33-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-32
+34    <uses-feature android:name="android.hardware.location" />
+34-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-62
+34-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:19-59
+35    <uses-feature
+35-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-13:36
+36        android:name="android.hardware.camera"
+36-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-47
+37        android:required="false" />
+37-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-33
+38
+39    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+39-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+39-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
+40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+40-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+40-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+41
+42    <application
+42-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:5:5-43:19
+43        android:allowBackup="true"
+43-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:6:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.1.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\69d502566aef3c8414b5a75d40e7bfae\core-1.1.0\AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:icon="@mipmap/ic_launcher"
+46-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:7:9-43
+47        android:label="@string/app_name"
+47-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:8:9-41
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:9:9-54
+49        android:supportsRtl="true"
+49-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:10:9-35
+50        android:theme="@style/AppTheme" >
+50-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:11:9-40
+51        <activity
+51-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:13:9-32:20
+52            android:name="io.ionic.starter.MainActivity"
+52-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:15:13-57
+53            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+53-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:14:13-90
+54            android:label="@string/title_activity_main"
+54-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:16:13-56
+55            android:launchMode="singleTask"
+55-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:18:13-44
+56            android:theme="@style/AppTheme.NoActionBarLaunch" >
+56-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:17:13-62
+57            <intent-filter>
+57-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:20:13-23:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:21:17-69
+58-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:21:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:22:17-77
+60-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:22:27-74
+61            </intent-filter>
+62            <intent-filter>
+62-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:25:13-30:29
+63                <action android:name="android.intent.action.VIEW" />
+63-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:26:17-69
+63-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:26:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:27:17-76
+65-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:27:27-73
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:28:17-78
+66-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:28:27-75
+67
+68                <data android:scheme="@string/custom_url_scheme" />
+68-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:29:17-68
+68-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:29:23-65
+69            </intent-filter>
+70        </activity>
+71
+72        <provider
+73            android:name="androidx.core.content.FileProvider"
+73-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:35:13-62
+74            android:authorities="io.ionic.starter.fileprovider"
+74-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:36:13-64
+75            android:exported="false"
+75-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:37:13-37
+76            android:grantUriPermissions="true" >
+76-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:38:13-47
+77            <meta-data
+77-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:39:13-41:64
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:40:17-67
+79                android:resource="@xml/file_paths" />
+79-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\app\src\main\AndroidManifest.xml:41:17-51
+80        </provider>
+81
+82        <meta-data
+82-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-28:71
+83            android:name="com.google.android.geo.API_KEY"
+83-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-58
+84            android:value="AIzaSyBm2zVTvRv1ithDMb00vavFFCsvUhoQ9bQ" />
+84-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-68
+85        <meta-data
+85-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:69
+86            android:name="com.google.android.gms.version"
+86-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-58
+87            android:value="@integer/google_play_services_version" />
+87-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-66
+88
+89        <uses-library
+89-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-35:40
+90            android:name="org.apache.http.legacy"
+90-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-50
+91            android:required="false" />
+91-->[:capacitor-cordova-android-plugins] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37
+92
+93        <service
+93-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+94            android:name="com.getcapacitor.plugin.background.BackgroundTaskService"
+94-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-84
+95            android:exported="false" />
+95-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+96
+97        <receiver android:name="com.getcapacitor.plugin.notification.TimedNotificationPublisher" />
+97-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-100
+97-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:19-97
+98        <receiver android:name="com.getcapacitor.plugin.notification.NotificationDismissReceiver" />
+98-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-101
+98-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:19-98
+99
+100        <meta-data
+100-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-25:37
+101            android:name="firebase_messaging_auto_init_enabled"
+101-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-64
+102            android:value="false" />
+102-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-34
+103
+104        <service
+104-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-33:19
+105            android:name="com.getcapacitor.CapacitorFirebaseMessagingService"
+105-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-78
+106            android:stopWithTask="false" >
+106-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-41
+107            <intent-filter>
+107-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-32:29
+108                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+108-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-78
+108-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:25-75
+109            </intent-filter>
+110        </service>
+111        <!--
+112             FirebaseMessagingService performs security checks at runtime,
+113             but set to not exported to explicitly avoid allowing another app to call it.
+114        -->
+115        <service
+115-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\f7a3b0e890512bc77f6ebe1ae7b3cf88\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+116            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+116-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\f7a3b0e890512bc77f6ebe1ae7b3cf88\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+117            android:exported="false" >
+117-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\f7a3b0e890512bc77f6ebe1ae7b3cf88\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+118            <intent-filter android:priority="-500" >
+118-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-32:29
+119                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+119-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-78
+119-->[:capacitor-android] C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:25-75
+120            </intent-filter>
+121        </service>
+122        <service
+122-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+123            android:name="com.google.firebase.components.ComponentDiscoveryService"
+123-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
+124            android:exported="false" >
+124-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
+125            <meta-data
+125-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+126                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+126-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+128        </service>
+129
+130        <receiver
+130-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+131            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+131-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+132            android:exported="true"
+132-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+133            android:permission="com.google.android.c2dm.permission.SEND" >
+133-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+134            <intent-filter>
+134-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+135                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+135-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+135-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\7706b68ba2d8b0d9a4ed77bd110c5315\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+136            </intent-filter>
+137        </receiver>
+138
+139        <provider
+139-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\e6b65dec1d7bb76a4cc6c5aff18d5a6d\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+140            android:name="com.google.firebase.provider.FirebaseInitProvider"
+140-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\e6b65dec1d7bb76a4cc6c5aff18d5a6d\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+141            android:authorities="io.ionic.starter.firebaseinitprovider"
+141-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\e6b65dec1d7bb76a4cc6c5aff18d5a6d\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+142            android:exported="false"
+142-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\e6b65dec1d7bb76a4cc6c5aff18d5a6d\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+143            android:initOrder="100" />
+143-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\e6b65dec1d7bb76a4cc6c5aff18d5a6d\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+144
+145        <activity
+145-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\b6ac2380d3e4596e2c94ef1b7fa3e471\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+146            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+146-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\b6ac2380d3e4596e2c94ef1b7fa3e471\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\b6ac2380d3e4596e2c94ef1b7fa3e471\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alejandra\.gradle\caches\transforms-2\files-2.1\b6ac2380d3e4596e2c94ef1b7fa3e471\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+149    </application>
+150
+151</manifest>

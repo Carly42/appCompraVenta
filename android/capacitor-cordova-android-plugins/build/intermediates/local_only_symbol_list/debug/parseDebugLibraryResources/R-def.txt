@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+drawable dummy_my_location_button
+drawable dummy_mylocation_button_shadow
+layout dummy_infowindow
+string pgm_api_key_error
+string pgm_can_not_get_location
+string pgm_google_close_button
+string pgm_google_play_developer_error
+string pgm_google_play_error
+string pgm_google_play_internal_error
+string pgm_google_play_invalid_account
+string pgm_google_play_license_check_failed
+string pgm_google_play_network_error
+string pgm_google_play_service_disabled
+string pgm_google_play_service_invalid
+string pgm_google_play_service_missing
+string pgm_google_play_service_update_required
+string pgm_google_play_sign_in_required
+string pgm_location_rejected_by_user
+string pgm_no_location_providers
+string pgm_no_location_service_is_disabled

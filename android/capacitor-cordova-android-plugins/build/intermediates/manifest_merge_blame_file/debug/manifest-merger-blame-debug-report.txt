@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:amazon="http://schemas.amazon.com/apk/res/android"
+3    xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="capacitor.android.plugins"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:10:1-76
+12-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:10:18-74
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:11:1-74
+13-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:11:18-72
+14
+15    <uses-feature android:name="android.hardware.location.gps" />
+15-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:12:1-61
+15-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:12:15-59
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:13:1-62
+17-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:13:18-60
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:14:1-74
+18-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:14:18-72
+19
+20    <uses-feature
+20-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:15:1-73
+21        android:glEsVersion="0x00020000"
+21-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:15:15-47
+22        android:required="true" />
+22-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:15:48-71
+23    <uses-feature android:name="android.hardware.location" />
+23-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:16:1-57
+23-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:16:15-55
+24
+25    <application>
+25-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:5:1-9:15
+26        <meta-data
+27            android:name="com.google.android.geo.API_KEY"
+27-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:6:12-57
+28            android:value="AIzaSyBm2zVTvRv1ithDMb00vavFFCsvUhoQ9bQ" />
+28-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:6:58-104
+29        <meta-data
+29-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:7:1-113
+30            android:name="com.google.android.gms.version"
+30-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:7:12-57
+31            android:value="@integer/google_play_services_version" />
+31-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:7:58-111
+32
+33        <uses-library
+33-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:8:1-79
+34            android:name="org.apache.http.legacy"
+34-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:8:15-52
+35            android:required="false" />
+35-->C:\Users\Alejandra\Documents\UPB-4toSemestre\Ingenieria de Software\appCompraVenta-Carla\appCompraVenta\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:8:53-77
+36    </application>
+37
+38</manifest>
